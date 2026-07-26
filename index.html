@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Offizielle Website von Stand-up-Comedian Joachim Hahn. Termine, Videos und Booking.">
+
+    <title>Joachim Hahn | Stand-up Comedian</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+   <header>
+
+    <div class="container header-inner">
+
+        <a href="#" class="logo">
+    <span>Joachim Hahn</span>
+    <small>Stand-up Comedy</small>
+</a>
+
+        <nav>
+            <a href="#termine">Termine</a>
+            <a href="#videos">Videos</a>
+            <a href="#solo">Solo</a>
+            <a href="#about">Über mich</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+
+        <div class="header-social">
+
+<a href="https://youtube.com/joachimhahn">
+    <i class="fa-brands fa-youtube" style="font-size:40px;"></i>
+</a>
+
+<a href="https://instagram.com/hahn.solo.7">
+    <i class="fa-brands fa-instagram" style="font-size:40px;"></i>
+</a>
+
+<a href="https://tiktok.com/@joachimhahncomedy">
+    <i class="fa-brands fa-tiktok" style="font-size:40px;"></i>
+</a>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+
+    <section class="hero">
+
+        <div class="container hero-grid">
+
+            <div>
+
+                <p class="eyebrow">
+                    STAND-UP COMEDIAN
+                </p>
+
+                <h1>
+                    Joachim Hahn<br>
+                    hat auf alles<br>
+                    eine Antwort.
+                </h1>
+
+                <p class="source">
+                    Quelle:<br>
+                    Joachim Hahn.
+                </p>
+
+            </div>
+
+            <div class="hero-image">
+
+               <img src="assets/img/hero.JPG" alt="Joachim Hahn">
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="termine" class="section">
+
+        <div class="container narrow">
+
+            <h2>TERMINE</h2>
+
+            <p>
+                Termine folgen.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="videos" class="section">
+
+        <div class="container narrow">
+
+            <h2>VIDEOS</h2>
+
+            <!-- Hier kommen später deine YouTube-Videos hin -->
+
+        </div>
+
+    </section>
+
+
+
+    <section id="solo" class="section">
+
+    <div class="container narrow">
+
+        <h2>SOLO</h2>
+
+        <h3>GELIEBT UND UNVERGESSEN</h3>
+
+        <p>
+            Joachim Hahn zerlegt in seinem ersten Solo Beziehungen,
+            Religion, Depressionen, Elternschaft und sich selbst.
+            Psychotisch anmutend, dunkel und mit erschreckend wenig
+            Mitgefühl für die eigene Würde. Permanent stellt sich die
+            Frage, wie lange ein Mensch eigentlich mit seinen Gedanken
+            allein sein sollte.
+        </p>
+
+        <br>
+
+        <p>
+            Joachim ist u.&nbsp;a. Gewinner des Mannheimer Comedy Cup
+            in der Kategorie „Professionals“ und belegte den zweiten
+            Platz beim Düsseldorfer Master Slam.
+        </p>
+
+    </div>
+
+</section>
+
+    <section id="about" class="section">
+
+        <div class="container narrow">
+
+            <h2>ÜBER MICH</h2>
+
+            <p>
+                Joachim Hahn steht seit vielen Jahren auf
+                deutschsprachigen Comedybühnen.
+            </p>
+
+            <br>
+
+            <p>
+                Er ist sehr gut.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="kontakt" class="section">
+
+        <div class="container narrow">
+
+            <h2>BOOKING</h2>
+
+            <p>
+                Anfragen:
+            </p>
+
+            <br>
+
+            <p>
+                <a href="mailto:joachimhahn@email.de">
+                    joachimhahn@email.de
+                </a>
+            </p>
+
+            <br><br>
+
+            <div class="social-links">
+
+<a href="https://youtube.com/joachimhahn" style="margin-right:12px;">
+    <i class="fa-brands fa-youtube" style="font-size:20px;"></i>
+</a>
+
+<a href="https://instagram.com/hahn.solo.7" style="margin-right:12px;">
+    <i class="fa-brands fa-instagram" style="font-size:20px;"></i>
+</a>
+
+<a href="https://tiktok.com/@joachimhahncomedy">
+    <i class="fa-brands fa-tiktok" style="font-size:20px;"></i>
+</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <footer>
+
+        <div class="container footer">
+
+            <p>
+                © 2026 Joachim Hahn
+            </p>
+
+            <div>
+
+<a href="impressum.html">Impressum</a>
+
+<a href="datenschutz.html">Datenschutz</a>
+
+            </div>
+
+        </div>
+
+    </footer>
+<script>
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }
+    });
+},{
+    threshold:0.15
+});
+
+document.querySelectorAll(".section").forEach(section=>{
+    observer.observe(section);
+});
+</script>
+</body>
+
+</html>
